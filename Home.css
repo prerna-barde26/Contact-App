@@ -1,0 +1,46 @@
+body{
+    background-color: bisque;
+}
+
+.app-title{
+    text-align: center;
+    color: #e65c00;
+    font-size: 40px;
+    font-style: italic;
+}
+
+
+
+
+.app-body{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sub-heading{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.user-input{
+    display: block;
+    font-size: 25px;
+    padding: 5px;
+    margin: 30px;
+    border-radius: 5px;
+    border: 1px solid #e65c00;
+}
+
+.btn-add-contact{
+    display: block;
+    font-size: 30px;
+    padding: 10px 30px;
+    margin: 30px auto;
+    background-color: #e65c00;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
